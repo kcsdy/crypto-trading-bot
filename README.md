@@ -43,7 +43,7 @@ This project is an **automated cryptocurrency trading bot** built with **TypeScr
 
 ### **1️⃣ Clone the Repository**  
 ```sh
-git clone https://github.com/your-username/crypto-trading-bot.git
+git clone https://github.com/kcsdy/crypto-trading-bot.git
 cd crypto-trading-bot
 ```
 
