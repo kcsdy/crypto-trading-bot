@@ -18,14 +18,14 @@ dotenv.config();
 
     if (price <= stopLoss) {
       console.log('⚠️ Stop-loss triggered!');
-      //sell here
+      //sell here : await placeTrade(page, 'sell');
       await sendTelegramAlert(`🚨 BTC dropped below $${stopLoss}! Sold at $${price}`);
       break;
     }
 
     if (price >= takeProfit) {
       console.log('🎉 Take-profit reached!');
-      //sell here
+      //sell here : await placeTrade(page, 'sell');
       await sendTelegramAlert(`💰 BTC hit $${takeProfit}! Profit secured.`);
       break;
     }
